@@ -41,18 +41,14 @@
         <div class="row">
           <div class="col-12 col-md-6 lecol">
             <h2>TODO</h2>
-            <ul class="todo-list">
-              <li>Wash dresses <button class="btn"><font class="act"><i class="fa fa-check" aria-hidden="true"></i></font></button> </li>
-              <li>Read books <button class="btn"><font class="act"><i class="fa fa-check" aria-hidden="true"></i></font></button> </li>
-              <li>Study Physics <button class="btn"><font class="act"><i class="fa fa-check" aria-hidden="true"></i></font></button> </li>
+            <ul class="todo-list" id="todo-list">
+              <li id="t0">Wash dresses <button onclick="crdone(0)" class="btn"><font class="act"><i class="fa fa-check" aria-hidden="true"></i></font></button> </li>
             </ul>
           </div>
           <div class="col-12 col-md-6 ricol">
             <h2>DONE</h2>
-            <ul class="todo-list">
-              <li>blog writing <button class="btn"><font class="dont"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></font> </button> <button class="btn"><font class="remov"> <i class="fa fa-trash-o" aria-hidden="true"></i> </font> </button></li>
-              <li>video diary <button class="btn"><font class="dont"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></font></button> <button class="btn"><font class="remov"> <i class="fa fa-trash-o" aria-hidden="true"></i> </font> </button> </li>
-              <li>Study mathematics  <button class="btn"><font class="dont"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></font></button> <button class="btn"><font class="remov"> <i class="fa fa-trash-o" aria-hidden="true"></i> </font> </button> </li>
+            <ul class="done-list" id="done-list">
+              <li id="d0">blog writing <button onclick="undone(0)" class="btn"><font class="dont"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></font> </button> <button onclick="delfl(0)" class="btn"><font class="remov"> <i class="fa fa-trash-o" aria-hidden="true"></i> </font> </button></li>
             </ul>
           </div>
         </div>

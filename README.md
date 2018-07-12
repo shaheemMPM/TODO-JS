@@ -1,3 +1,3 @@
-#TODO WEB APP
+# TODO WEB APP
 
-###made with vanilla JS
+### scripting with vanilla js, front end with bootstrap
